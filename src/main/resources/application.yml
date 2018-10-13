@@ -1,0 +1,22 @@
+test:
+      my:
+          string: " I Love you "
+
+---
+spring:
+        profiles: dev
+
+test:
+      my:
+          string: " I Love you "
+
+---
+spring:
+        profiles: Test
+
+test:
+      my:
+          string: " I Hate you "
+
+
+
