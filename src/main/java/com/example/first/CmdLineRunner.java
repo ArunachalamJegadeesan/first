@@ -2,9 +2,10 @@ package com.example.first;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-@Service
+@Component
 public class CmdLineRunner implements CommandLineRunner {
     @Value("${test.my.string}")
     private  String myString;

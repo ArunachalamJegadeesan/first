@@ -1,10 +1,10 @@
 test:
       my:
-          string: " I Love you "
+          string: " I Kick you "
 
 ---
 spring:
-        profiles: dev
+        profiles: Dev
 
 test:
       my:
